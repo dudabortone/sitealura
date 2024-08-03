@@ -1,0 +1,67 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Gupter", serif;
+}
+
+
+header {
+    padding: 20px;
+    border-bottom: solid 2px red;
+    font-size: 30px;
+    color:brown
+}
+
+.chamada-texto{ 
+    background: maroon;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{ 
+    font-size: 35px
+}
+
+
+img {
+
+    height: 100px;
+}
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.videos{ 
+    padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.videos img { 
+    opacity: 0.5
+
+}
+
+.videos img:hover{
+    opacity: 1.0;
+
+    border: 1px solid green
+}
+
